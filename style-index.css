@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(90deg,rgba(1, 236, 91, 0.3),rgba(62, 237, 253, 0.5));
+}
+/* introdution */
+#intro{
+    background-image: linear-gradient(45deg,rgba(1, 236, 91, 0.1),rgba(62, 237, 253, 0.1)),url("https://source.unsplash.com/1600x900/?water");
+    padding: 15%;
+    background-position: center;
+    background-size: cover;
+}
+#intro:hover{
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+.quotes{
+    padding: 20px;
+    background-color:rgba(163, 163, 156,0.2);
+    border:thin solid transparent;
+    border-top-right-radius:50px;
+    border-bottom-left-radius: 50px;
+}
+.quotes:hover{
+    background-color:rgba(163, 163, 156, 0.6);
+    transition:0.2s;
+    color: rgb(11, 44, 11);
+}
+/* welcome */
+.welcome>h2,.welcome>h5{
+    text-align: center;
+}
+.welcome>h5{
+    opacity: 0.7;
+}
+.welcome>h2>.red{
+    color: red;
+}
+/* items products */
+.products{
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(180deg,rgba(30, 182, 144, 0.3),rgba(27, 85, 221, 0.9));
+    justify-content: center;
+}
+.item>img{
+    height: 150px;
+    width: 200px;
+    border-radius:10%;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.item{
+    padding: 0px 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    opacity: 0.8;
+
+}
+.p-box{
+    border: thin solid white;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-image: linear-gradient(180deg,rgba(30, 182, 144, 0.8),rgba(27, 85, 221, 0.9));
+}
+.p-box:hover{
+    border: thin solid green;
+    background-image: linear-gradient(90deg,rgba(30, 182, 144, 0.8),rgba(27, 85, 221, 0.9));
+}
